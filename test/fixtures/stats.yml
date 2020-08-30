@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action_name: MyString
+  action_amount: 1
+  logged_time: 2020-07-30 01:32:50
+  user: one
+
+two:
+  action_name: MyString
+  action_amount: 1
+  logged_time: 2020-07-30 01:32:50
+  user: two
