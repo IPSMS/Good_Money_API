@@ -2,7 +2,7 @@ class ApplicationController < ActionController::API
     before_action :authorized
 
     def secret
-        Rails.application.credentials[:jwt][:jwt_secret]
+        Rails.application.credentials[:jwt_secret]
     end
 
     def encode_token(payload)
