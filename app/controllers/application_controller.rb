@@ -1,4 +1,5 @@
 class ApplicationController < ActionController::API
+    before_action :authorized
     before_action :set_access
     after_action :cors_set_access_control_headers
 
