@@ -1,6 +1,5 @@
 class ApplicationController < ActionController::API
-    before_action :authorized
-    before_filter :set_access
+    before_action :set_access
     after_filter :cors_set_access_control_headers
 
     private
