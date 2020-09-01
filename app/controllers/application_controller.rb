@@ -63,6 +63,7 @@ class ApplicationController < ActionController::API
     end
      
     def authorized
+        puts @user
         render json: {  :errors => @user.errors.full_messages  }, status: :unauthorized unless logged_in?
     end
 end
